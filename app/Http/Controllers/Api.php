@@ -62,7 +62,7 @@ class Api extends Controller
         //     echo $data->nama_barang.'Harga: '.$data->harga_barang.'<br>';
         // }
         // dd($decoded_response_object->data);
-        return $decoded_response_object;
+        return $decoded_response_object->data;
     }
 
     public function produk($page=1)

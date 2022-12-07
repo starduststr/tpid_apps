@@ -5,6 +5,12 @@
     body{
         background-color: #2196F3;
     }
+    .max-text {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 150px;
+        }
 </style>
 
 <div class="col-md-12">
@@ -71,18 +77,18 @@
                     <span>Transaksi Terakhir</span>
                     <div class="card shadow-sm p-3 mb-2 mt-2 bg-body rounde">
                             <table class="table">
+                                <?php $no = 1;?>
+                                @foreach ($transaksi as $t)
                                 <tr>
-                                    <td>Pulsa Tri 5rb..</td>
+                                    <td class="max-text">{{ $t->nama_barang }}</td>
                                     <td><button class="btn btn-sm btn-primary">beli lagi</button></td>
                                 </tr>
-                                <tr>
-                                    <td>Kuota Tri 50..</td>
-                                    <td><button class="btn btn-sm btn-primary">beli lagi</button></td>
-                                </tr>
-                                <tr>
-                                    <td>Kuota Tri 45..</td>
-                                    <td><button class="btn btn-sm btn-primary">beli lagi</button></td>
-                                </tr>
+                                <?php 
+                                if($no >= 4){
+                                    break;
+                                }
+                                $no++;?>
+                                @endforeach
                             </table>
                     </div>
                 </div>

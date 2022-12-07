@@ -16,11 +16,13 @@ class User extends Controller
 
     public function dashboard(Request $request)
     {
+        $transaksi = $this->api->transaksi(1,$request->id_user,false,'lunas');
         $data = [
             'title' => 'Dashboard',
-            'address' => 'dashboard'
+            'address' => 'dashboard',
+            'transaksi' => $transaksi
         ];
-        dd($this->api->transaksi(1,$request->id_user,false,'lunas'));
+        
         return view('users/dashboard', $data);
     }
 }
