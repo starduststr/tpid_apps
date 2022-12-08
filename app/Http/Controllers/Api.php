@@ -62,7 +62,8 @@ class Api extends Controller
         //     echo $data->nama_barang.'Harga: '.$data->harga_barang.'<br>';
         // }
         // dd($decoded_response_object->data);
-        return $decoded_response_object->data;
+        $data = ($decoded_response_object->code == 200) ? $decoded_response_object->data : 'terjadi kesalahan' ;
+        return $data;
     }
 
     public function produk($page=1)
@@ -84,6 +85,11 @@ class Api extends Controller
         }
 
         return $this->endPoin('transaksi/list?', $query);
+    }
+
+    public function kategori()
+    {
+        return $this->endPoin('kategori/list');
     }
 
 }

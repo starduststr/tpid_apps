@@ -1,6 +1,6 @@
 @extends('layouts.user')
 @section('content')
-
+<script src="https://code.jquery.com/jquery-3.6.1.slim.js" integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk=" crossorigin="anonymous"></script>
 <style>
     body{
         background-color: #2196F3;
@@ -77,18 +77,7 @@
                     <span>Transaksi Terakhir</span>
                     <div class="card shadow-sm p-3 mb-2 mt-2 bg-body rounde">
                             <table class="table">
-                                <?php $no = 1;?>
-                                @foreach ($transaksi as $t)
-                                <tr>
-                                    <td class="max-text">{{ $t->nama_barang }}</td>
-                                    <td><button class="btn btn-sm btn-primary">beli lagi</button></td>
-                                </tr>
-                                <?php 
-                                if($no >= 4){
-                                    break;
-                                }
-                                $no++;?>
-                                @endforeach
+                                <tbody id="table_update"></tbody>
                             </table>
                     </div>
                 </div>
@@ -96,4 +85,27 @@
         </div>
     </div>
 </div>
+
+<script>
+   getTransaksi('B47p').then(data => {
+        let i =1
+        var table = document.getElementById("table_update");
+        Object.entries(data).forEach(([key, value]) => {
+            if(i <= 4){
+                row = $("<tr id=row"+i+">").appendTo(table);
+                $("<td class=\"max-text\">").html(value.nama_barang).appendTo(row)
+                $("<td>").html('<button class="btn btn-sm btn-primary">beli lagi</button>').appendTo(row)
+            }
+        
+            i++
+	});
+});
+
+	async function getTransaksi(id_user) {
+		let response = await fetch('gettransaksi?page=1&id_user=' + id_user+'&email_user=false&filter_status=lunas')
+		let data = await response.json();
+
+		return data;
+	}
+</script>
 @endsection()
