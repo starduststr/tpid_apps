@@ -14,37 +14,45 @@
 </style>
 
 <div class="col-md-12">
+
     <div class="card bg-light ms-1 me-1 mt-3" style="border-radius: 25px 25px 5px 5px; height: 100vh; ">
+        
         <div class="card-body">
+            {{-- <div class="row mb-2">
+                <marquee width="60%" direction="left" height="" scrollamount="4" loop="1">
+                    This is a sample scrolling text that has scrolls texts to left.
+                </marquee>
+            </div> --}}
+            
             <div class="col-12 mt-2">
-                <div class="card shadow-sm p-3 mb-2 bg-body rounde">
+                <div class="card shadow-sm p-3 mb-2 bg-body rounded">
                     <div class="row">
                         <div class="col-3 text-center">
-                            <a href="#"><img src="https://github.com/starduststr/tpid/blob/main/pulsa.png?raw=true" alt="pulsa" width="55px;"></a>
+                            <a href="https://digitalpelajar.bukaolshop.site/kategori/pulsa-362980"><img src="https://github.com/starduststr/tpid/blob/main/pulsa.png?raw=true" alt="pulsa" width="55px;"></a>
                             <label style="font-size: 10px;;">Pulsa</small>
                         </div>
                         <div class="col-3 text-center">
-                            <a href="#"><img src="https://github.com/starduststr/tpid/blob/main/data.png?raw=true" alt="pulsa" width="55px;"></a>
+                            <a href="https://digitalpelajar.bukaolshop.site/kategori/data-362939"><img src="https://github.com/starduststr/tpid/blob/main/data.png?raw=true" alt="pulsa" width="55px;"></a>
                             <label style="font-size: 10px;;">Kuota</small>
                         </div>
                         <div class="col-3 text-center">
-                            <a href="#"><img src="https://github.com/starduststr/tpid/blob/main/token pln.png?raw=true" alt="pulsa" width="55px;"></a>
+                            <a href="https://digitalpelajar.bukaolshop.site/kategori/token-pln-362940"><img src="https://github.com/starduststr/tpid/blob/main/token pln.png?raw=true" alt="pulsa" width="55px;"></a>
                             <label style="font-size: 10px;;">Token PLN</small>
                         </div>
                         <div class="col-3 text-center">
-                            <a href="#"><img src="https://github.com/starduststr/tpid/blob/main/game.png?raw=true" alt="pulsa" width="55px;"></a>
+                            <a href="https://digitalpelajar.bukaolshop.site/kategori/games-362943"><img src="https://github.com/starduststr/tpid/blob/main/game.png?raw=true" alt="pulsa" width="55px;"></a>
                             <label style="font-size: 10px;;">Game</small>
                         </div>
                         <div class="col-3 text-center">
-                            <a href="#"><img src="https://github.com/starduststr/tpid/blob/main/E-money.png?raw=true" alt="pulsa" width="55px;"></a>
+                            <a href="https://digitalpelajar.bukaolshop.site/kategori/e-money-362942"><img src="https://github.com/starduststr/tpid/blob/main/E-money.png?raw=true" alt="pulsa" width="55px;"></a>
                             <label style="font-size: 10px;;">E-money</small>
                         </div>
                         <div class="col-3 text-center">
-                            <a href="#"><img src="https://github.com/starduststr/tpid/blob/main/paket sms dan telp.png?raw=true" alt="pulsa" width="55px;"></a>
+                            <a href="https://digitalpelajar.bukaolshop.site/kategori/telp-dan-sms-362941"><img src="https://github.com/starduststr/tpid/blob/main/paket sms dan telp.png?raw=true" alt="pulsa" width="55px;"></a>
                             <label style="font-size: 10px;;">Paket sms/telp</small>
                         </div>
                         <div class="col-3 text-center">
-                            <a href="#"><img src="https://github.com/starduststr/tpid/blob/main/voucher.png?raw=true" alt="pulsa" width="55px;"></a>
+                            <a href="https://digitalpelajar.bukaolshop.site/kategori/voucher-362944"><img src="https://github.com/starduststr/tpid/blob/main/voucher.png?raw=true" alt="pulsa" width="55px;"></a>
                             <label style="font-size: 10px;;">Voucher</label>
                         </div>
                         <div class="col-3 text-center">
@@ -53,26 +61,57 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                        <!-- Carousel -->
-                        <div id="demo" class="carousel slide" data-bs-ride="carousel">
-                            
-                            <!-- The slideshow/carousel -->
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="https://raw.githubusercontent.com/starduststr/tpid/main/1.png" class="d-block img-circle rounded-3" style="width: 100%;" height="100px">
-                                </div>
-                            <div class="carousel-item">
-                                <img src="https://raw.githubusercontent.com/starduststr/tpid/main/2.png" class="d-block rounded-3" style="width: 100%;" height="100px">
+
+                <div class="row mb-2">
+                    <!-- Carousel -->
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                        
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://raw.githubusercontent.com/starduststr/tpid/main/1.png" class="d-block img-circle rounded-3" style="width: 100%;" height="100px">
                             </div>
-                            <!-- <div class="carousel-item">
-                                <img src="ny.jpg" alt="New York" class="d-block w-100">
-                            </div> -->
-                            </div>
+                        <div class="carousel-item">
+                            <img src="https://raw.githubusercontent.com/starduststr/tpid/main/2.png" class="d-block rounded-3" style="width: 100%;" height="100px">
                         </div>
+                        <!-- <div class="carousel-item">
+                            <img src="ny.jpg" alt="New York" class="d-block w-100">
+                        </div> -->
+                        </div>
+                    </div>
                 </div>
+                <span class="mt-4">Pascabayar</span>
+                <div class="card shadow-sm p-3 mb-2 bg-body rounded">
+                    <div class="row">
+                        <div class="col-3 text-center">
+                            <a href="https://digitalpelajar.bukaolshop.site/kategori/pulsa-362980"><img src="https://github.com/starduststr/tpid/blob/main/pulsa.png?raw=true" alt="pulsa" width="55px;"></a>
+                            <label style="font-size: 10px;;">Tagihan PLN</small>
+                        </div>
+                        <div class="col-3 text-center">
+                            <a href="https://digitalpelajar.bukaolshop.site/kategori/data-362939"><img src="https://github.com/starduststr/tpid/blob/main/data.png?raw=true" alt="pulsa" width="55px;"></a>
+                            <label style="font-size: 10px;;">PDAM</small>
+                        </div>
+                        <div class="col-3 text-center">
+                            <a href="https://digitalpelajar.bukaolshop.site/kategori/token-pln-362940"><img src="https://github.com/starduststr/tpid/blob/main/token pln.png?raw=true" alt="pulsa" width="55px;"></a>
+                            <label style="font-size: 10px;;">Internet</small>
+                        </div>
+                        <div class="col-3 text-center">
+                            <a href="https://digitalpelajar.bukaolshop.site/kategori/games-362943"><img src="https://github.com/starduststr/tpid/blob/main/game.png?raw=true" alt="pulsa" width="55px;"></a>
+                            <label style="font-size: 10px;;">BPJS</small>
+                        </div>
+                        <div class="col-3 text-center">
+                            <a href="https://digitalpelajar.bukaolshop.site/kategori/e-money-362942"><img src="https://github.com/starduststr/tpid/blob/main/E-money.png?raw=true" alt="pulsa" width="55px;"></a>
+                            <label style="font-size: 10px;;">PBB</small>
+                        </div>
+                        <div class="col-3 text-center">
+                            <a href="https://digitalpelajar.bukaolshop.site/kategori/telp-dan-sms-362941"><img src="https://github.com/starduststr/tpid/blob/main/paket sms dan telp.png?raw=true" alt="pulsa" width="55px;"></a>
+                            <label style="font-size: 10px;;">Gas Negara</small>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
-            <div class="row">
+            {{-- <div class="row">
                 <div class="mt-2 col-md-12">
                     <span>Transaksi Terakhir</span>
                     <div class="card shadow-sm p-3 mb-2 mt-2 bg-body rounde">
@@ -81,7 +120,7 @@
                             </table>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>

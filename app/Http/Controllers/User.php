@@ -47,4 +47,15 @@ class User extends Controller
 
         return view('users/pulsa', $data);
     }
+
+    public function detailproduk()
+    {
+        $data = [
+            'title' => 'Dashboard',
+            'address' => 'dashboard',
+            
+        ];
+
+        return view('users/detailproduk', $data);
+    }
 }

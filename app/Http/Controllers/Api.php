@@ -61,7 +61,6 @@ class Api extends Controller
         // foreach($decoded_response_object->data as $data){
         //     echo $data->nama_barang.'Harga: '.$data->harga_barang.'<br>';
         // }
-        // dd($decoded_response_object->data);
         $data = ($decoded_response_object->code == 200) ? $decoded_response_object->data : 'terjadi kesalahan' ;
         return $data;
     }

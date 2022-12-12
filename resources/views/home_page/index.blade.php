@@ -41,7 +41,7 @@
         <div class="logo">
           <h1><a href="{{ route('home') }}">TPID</a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html"><img src="{{ asset('assets/img/logo.pn " alt="" cla') }}ss="img-fluid"></a>-->
+          <!-- <a href="index.html"><img src="{{ asset('assets/img/logo.png " alt="" cla') }}ss="img-fluid"></a>-->
         </div>
 
         <nav id="navbar" class="navbar">
@@ -331,10 +331,7 @@
               <h2>Download Aplikasi Android</h2>
             </div>
             <div class="col-md-5 text-center text-md-end">
-              <p>    public function __construct()
-                {
-                    
-                }
+              <p>  
                 <a onclick="download()" href="{{ route('download','digitalpelajar.apk') }}"
                   ><img src="https://konterkuota.com/assets/Android.png" alt=""
                 /></a>

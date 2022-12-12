@@ -27,6 +27,7 @@ Route::get('/user/produk', [App\Http\Controllers\Produk::class, 'produk'])->name
 Route::get('/user/gettransaksi', [App\Http\Controllers\User::class, 'getTransaksi'])->name('gettransaksi');
 Route::get('/user/kategori', [App\Http\Controllers\User::class, 'kategori'])->name('kategori');
 Route::get('/user/pulsa', [App\Http\Controllers\User::class, 'pulsa'])->name('pulsa');
+Route::get('/user/detailproduk', [App\Http\Controllers\User::class, 'detailproduk'])->name('detailproduk');
 
 //API
 Route::get('/api/produk', [App\Http\Controllers\Api::class, 'produk'])->name('api_produk');
