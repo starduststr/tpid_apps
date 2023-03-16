@@ -47,7 +47,7 @@
         <nav id="navbar" class="navbar">
           <ul>
             <li><a class="active" href="{{ route('home') }}">Home</a></li>
-            <li><a href="{{ route('download','digitalpelajar.apk') }}">Download</a></li>
+            <li><a href="https://doc-0k-2c-docs.googleusercontent.com/docs/securesc/ijvc6mmsrct19mab35e3m2f6sie4f4jt/dac318f9b0ed935m1j6b8bi8ivp0dj3v/1671204975000/15081524485630359768/15081524485630359768/1sNLmmZWg-BBYfp7DpxNJZWGTHb07fHi7?e=download&ax=ALjR8swPxHVnTGRQnSuK64CsVfcPz0TEndXonMyyEQFm1D-MoyJsKxSp7c3-ZKu8iAxJDh0970m7oNoXHTSKP3VGTLviOnaMc-MrGCNooS3jf8cAVS6WSwjEUNHKGDob4diyKP92dm1oxMUtv7BRh9FJV6pYZcYohnyrzOlPpjnWOlKTmQIxt7bqzf0CNm4WJlQYRWc_J2yIgHRjPA_9NMCBmgZLD4gwGU_N_i3E5_9lF_5BmXYJJ2ws-U9OaE67L2KqPa_TftWioDK69qgW2s8xu5S0Ef23yCzQOTmicokcGcb13bQnl16evhOSkR2Wly0V6pohqEpT-jPerVIfs8QmPcRsrSl5iilZpu50XfYoc2DInYPIsI812FDQkTr_AW8To7kW_wSyAplty2VC1g6oQdP0erTBN0HTuT3W8UHJGzAFOEAmx8awlQvNJjkTGi8ajwfzsIhVIrMbzQiGYqUzpHNK2W6k6XV6cHlQcSMYFQKhOUmGacGfhNtopQluW5B3-Ij4z_2jZKBg423D0WserwxBOB5aVEarBkmFOY3fv60dAS1TaFiYvL3dy8y932G3YuvxrFM7I3kN8Nyw-2IY1X2fqwVLfIMSvGVW3cgYmDbSi5Zg7aAZoBDeRXuIXQWMsU2QmMdfuGpfwOaQSr8YkrIWVr5NHwhbWyninS-0II3KcHAJEJoMooHDP1aEGsRiYo2D3bX4LDvnL0Mjb85q2hCIwgF1F5O-3R-KzL9BrQnfQ88eM-pTTiMQcgzKgWejE4fBvRxgf5J6oESQHr97YGEn8UXS6QufDhAo5cPes8Hc1msJI6aMHd4uPPj3RkqjdDC-rdDqktxZ-U-lYTLMxqRRpezgH1edSkKjuYTzSgNxBPnKJbUwKJboSkbtKcDOuiivXjyFO1VtkIL6Rql-A-Na9KCKTLBUXza9qitH7ZrbwerYEKf73M_bnZnjaoeEUiH17YkWH0_tMfy_XHCfqj_adhighG7boq7Ez_K_uhiKnf-GO3fjRy8vrhV_443DOCnoPB73GIMtFgzylCKq&uuid=dc660aee-07c9-4765-9d55-afa94fa0d5cd&authuser=4&nonce=unejs846m674o&user=15081524485630359768&hash=p3alvca5qgol9usv9elmsmbfsifnd5do"  sandbox="allow-scripts allow-same-origin">Download</a></li>
             <li><a href="contact.html">Contact Us</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
@@ -105,20 +105,20 @@
                   data-aos-delay="200"
                   data-aos-offset="-500"
                 >
-                <button onclick="download()" type="button" class="btn btn-outline-white">Download</button>
+                <button onclick="download()" sandbox="allow-scripts allow-same-origin" type="button" class="btn btn-outline-white">Download</button>
                   <span id="download" class="text-white"><img src="{{ asset('gif/load-31_128.gif') }}" alt="download" width="7%"> Downloading...</span>
                 </p>
                 
               </div>
               <div class="col-lg-4 iphone-wrap">
                 <img
-                  src="{{ asset('assets/img/mockup1 - Edited.png') }}"
+                  src="{{ asset('assets/img/13.png') }}"
                   alt="Image"
                   class="phone-1"
                   data-aos="fade-right"
                 />
                 <img
-                  src="{{ asset('assets/img/mockup1 - Edited.png') }}"
+                  src="{{ asset('assets/img/12.png') }}"
                   alt="Image"
                   class="phone-2"
                   data-aos="fade-right"
@@ -228,6 +228,18 @@
             </div>
             <div class="col-md-4 bg-info mt-2">
               <div class="step">
+                <h3>PLN PASCABAYAR</h3>
+                <p>PLN PASCABAYAR</p>
+              </div>
+            </div>
+            <div class="col-md-4 bg-info mt-2">
+              <div class="step">
+                <h3>GAS NEGARA</h3>
+                <p>GAS NEGARA</p>
+              </div>
+            </div>
+            <div class="col-md-4 bg-info mt-2">
+              <div class="step">
                 <h3>SMS/TELP</h3>
                 <p>XL, AXIS, TELKOMSEL, TRI, INDOSAT, By.U, SMARTFREN</p>
               </div>
@@ -255,7 +267,7 @@
             <div class="col-sm-1 mt-2">
               <div class="card card-body">
                 <img
-                  src="https://konterkuota.com/assets/payments/bank_bni.png"
+                  src="https://www.bni.co.id/Portals/1/bni-logo-id.png"
                   alt=""
                 />
               </div>
@@ -263,7 +275,7 @@
             <div class="col-sm-1 mt-2">
               <div class="card card-body">
                 <img
-                  src="https://konterkuota.com/assets/payments/bank_bni.png"
+                  src="https://bri.co.id/o/bri-corporate-theme/images/bri-logo.png"
                   alt=""
                 />
               </div>
@@ -271,7 +283,7 @@
             <div class="col-sm-1 mt-2">
               <div class="card card-body">
                 <img
-                  src="https://konterkuota.com/assets/payments/bank_bni.png"
+                  src="https://bankmandiri.co.id/image/layout_set_logo?img_id=31567&t=1671123730887"
                   alt=""
                 />
               </div>
@@ -279,7 +291,7 @@
             <div class="col-sm-1 mt-2">
               <div class="card card-body">
                 <img
-                  src="https://konterkuota.com/assets/payments/bank_bni.png"
+                  src="https://www.bankbsi.co.id/img/logo.png"
                   alt=""
                 />
               </div>
@@ -287,7 +299,7 @@
             <div class="col-sm-1 mt-2">
               <div class="card card-body">
                 <img
-                  src="https://konterkuota.com/assets/payments/bank_bni.png"
+                  src="http://img2.wikia.nocookie.net/__cb20150214231802/logopedia/images/e/e0/Logo_Bank_Permata.png"
                   alt=""
                 />
               </div>
@@ -295,7 +307,7 @@
             <div class="col-sm-1 mt-2">
               <div class="card card-body">
                 <img
-                  src="https://konterkuota.com/assets/payments/bank_bni.png"
+                  src="https://alfamart.co.id/frontend/img/brand/logo_alfamart_transparent.png"
                   alt=""
                 />
               </div>
@@ -303,7 +315,7 @@
             <div class="col-sm-1 mt-2">
               <div class="card card-body">
                 <img
-                  src="https://konterkuota.com/assets/payments/bank_bni.png"
+                  src="https://indomaret.co.id/Assets/image/logo.png"
                   alt=""
                 />
               </div>
@@ -311,7 +323,31 @@
             <div class="col-sm-1 mt-2">
               <div class="card card-body">
                 <img
-                  src="https://konterkuota.com/assets/payments/bank_bni.png"
+                  src="https://alfamidiku.com/assets/images/logo.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-sm-1 mt-2">
+              <div class="card card-body">
+                <img
+                  src="https://1.bp.blogspot.com/-zqvCZXYnnfA/XciTU6Ikw_I/AAAAAAAABJc/TrUNMleviBsRtXgnDWzFEhZjxN03ET7_gCLcBGAsYHQ/s400/Logo%2BOVO.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-sm-1 mt-2">
+              <div class="card card-body">
+                <img
+                  src="https://qris.id/homepage/images/assets/pay/qris.id-3.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-sm-1 mt-2">
+              <div class="card card-body">
+                <img
+                  src="https://www.shopeepay.co.id/src/pages/home/assets/images/2-shopeepay-rectangle-orange2.png"
                   alt=""
                 />
               </div>
@@ -332,8 +368,8 @@
             </div>
             <div class="col-md-5 text-center text-md-end">
               <p>  
-                <a onclick="download()" href="{{ route('download','digitalpelajar.apk') }}"
-                  ><img src="https://konterkuota.com/assets/Android.png" alt=""
+                <a href="https://doc-0k-2c-docs.googleusercontent.com/docs/securesc/ijvc6mmsrct19mab35e3m2f6sie4f4jt/dac318f9b0ed935m1j6b8bi8ivp0dj3v/1671204975000/15081524485630359768/15081524485630359768/1sNLmmZWg-BBYfp7DpxNJZWGTHb07fHi7?e=download&ax=ALjR8swPxHVnTGRQnSuK64CsVfcPz0TEndXonMyyEQFm1D-MoyJsKxSp7c3-ZKu8iAxJDh0970m7oNoXHTSKP3VGTLviOnaMc-MrGCNooS3jf8cAVS6WSwjEUNHKGDob4diyKP92dm1oxMUtv7BRh9FJV6pYZcYohnyrzOlPpjnWOlKTmQIxt7bqzf0CNm4WJlQYRWc_J2yIgHRjPA_9NMCBmgZLD4gwGU_N_i3E5_9lF_5BmXYJJ2ws-U9OaE67L2KqPa_TftWioDK69qgW2s8xu5S0Ef23yCzQOTmicokcGcb13bQnl16evhOSkR2Wly0V6pohqEpT-jPerVIfs8QmPcRsrSl5iilZpu50XfYoc2DInYPIsI812FDQkTr_AW8To7kW_wSyAplty2VC1g6oQdP0erTBN0HTuT3W8UHJGzAFOEAmx8awlQvNJjkTGi8ajwfzsIhVIrMbzQiGYqUzpHNK2W6k6XV6cHlQcSMYFQKhOUmGacGfhNtopQluW5B3-Ij4z_2jZKBg423D0WserwxBOB5aVEarBkmFOY3fv60dAS1TaFiYvL3dy8y932G3YuvxrFM7I3kN8Nyw-2IY1X2fqwVLfIMSvGVW3cgYmDbSi5Zg7aAZoBDeRXuIXQWMsU2QmMdfuGpfwOaQSr8YkrIWVr5NHwhbWyninS-0II3KcHAJEJoMooHDP1aEGsRiYo2D3bX4LDvnL0Mjb85q2hCIwgF1F5O-3R-KzL9BrQnfQ88eM-pTTiMQcgzKgWejE4fBvRxgf5J6oESQHr97YGEn8UXS6QufDhAo5cPes8Hc1msJI6aMHd4uPPj3RkqjdDC-rdDqktxZ-U-lYTLMxqRRpezgH1edSkKjuYTzSgNxBPnKJbUwKJboSkbtKcDOuiivXjyFO1VtkIL6Rql-A-Na9KCKTLBUXza9qitH7ZrbwerYEKf73M_bnZnjaoeEUiH17YkWH0_tMfy_XHCfqj_adhighG7boq7Ez_K_uhiKnf-GO3fjRy8vrhV_443DOCnoPB73GIMtFgzylCKq&uuid=dc660aee-07c9-4765-9d55-afa94fa0d5cd&authuser=4&nonce=unejs846m674o&user=15081524485630359768&hash=p3alvca5qgol9usv9elmsmbfsifnd5do"
+                sandbox="allow-scripts allow-same-origin"><img src="https://konterkuota.com/assets/Android.png" alt=""
                 /></a>
               </p>
             </div>
@@ -425,8 +461,8 @@
         document.getElementById('download').style.display = 'none'
         function download(){
             document.getElementById('download').style.display = ''
-            var url = window.location.href + 'download'
-            window.location = url
+            // var url = window.location.href + 'download'
+            window.location = "https://doc-0k-2c-docs.googleusercontent.com/docs/securesc/ijvc6mmsrct19mab35e3m2f6sie4f4jt/dac318f9b0ed935m1j6b8bi8ivp0dj3v/1671204975000/15081524485630359768/15081524485630359768/1sNLmmZWg-BBYfp7DpxNJZWGTHb07fHi7?e=download&ax=ALjR8swPxHVnTGRQnSuK64CsVfcPz0TEndXonMyyEQFm1D-MoyJsKxSp7c3-ZKu8iAxJDh0970m7oNoXHTSKP3VGTLviOnaMc-MrGCNooS3jf8cAVS6WSwjEUNHKGDob4diyKP92dm1oxMUtv7BRh9FJV6pYZcYohnyrzOlPpjnWOlKTmQIxt7bqzf0CNm4WJlQYRWc_J2yIgHRjPA_9NMCBmgZLD4gwGU_N_i3E5_9lF_5BmXYJJ2ws-U9OaE67L2KqPa_TftWioDK69qgW2s8xu5S0Ef23yCzQOTmicokcGcb13bQnl16evhOSkR2Wly0V6pohqEpT-jPerVIfs8QmPcRsrSl5iilZpu50XfYoc2DInYPIsI812FDQkTr_AW8To7kW_wSyAplty2VC1g6oQdP0erTBN0HTuT3W8UHJGzAFOEAmx8awlQvNJjkTGi8ajwfzsIhVIrMbzQiGYqUzpHNK2W6k6XV6cHlQcSMYFQKhOUmGacGfhNtopQluW5B3-Ij4z_2jZKBg423D0WserwxBOB5aVEarBkmFOY3fv60dAS1TaFiYvL3dy8y932G3YuvxrFM7I3kN8Nyw-2IY1X2fqwVLfIMSvGVW3cgYmDbSi5Zg7aAZoBDeRXuIXQWMsU2QmMdfuGpfwOaQSr8YkrIWVr5NHwhbWyninS-0II3KcHAJEJoMooHDP1aEGsRiYo2D3bX4LDvnL0Mjb85q2hCIwgF1F5O-3R-KzL9BrQnfQ88eM-pTTiMQcgzKgWejE4fBvRxgf5J6oESQHr97YGEn8UXS6QufDhAo5cPes8Hc1msJI6aMHd4uPPj3RkqjdDC-rdDqktxZ-U-lYTLMxqRRpezgH1edSkKjuYTzSgNxBPnKJbUwKJboSkbtKcDOuiivXjyFO1VtkIL6Rql-A-Na9KCKTLBUXza9qitH7ZrbwerYEKf73M_bnZnjaoeEUiH17YkWH0_tMfy_XHCfqj_adhighG7boq7Ez_K_uhiKnf-GO3fjRy8vrhV_443DOCnoPB73GIMtFgzylCKq&uuid=dc660aee-07c9-4765-9d55-afa94fa0d5cd&authuser=4&nonce=unejs846m674o&user=15081524485630359768&hash=p3alvca5qgol9usv9elmsmbfsifnd5do"
         }
     </script>
   </body>
